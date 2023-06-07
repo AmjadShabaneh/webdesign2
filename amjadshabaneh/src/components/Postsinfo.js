@@ -1,0 +1,23 @@
+const postsinfo = [
+    {key:1,title:'React Js',link:"/pages/preact"
+    ,text:'React is an open-source JavaScript library for building user interfaces. It was developed by Facebook and has gained widespread popularity among developers due to its efficiency, flexibility, and performance. React allows developers to build complex UIs using a component-based approach, where each component can be re-used and nested within other components to create a cohesive and dynamic interface. It also enables developers to write code in a declarative manner, making it easier to reason about and debug. React is often used in combination with other libraries and tools, such as Redux for state management and Webpack for bundling and building applications. Overall, React is a powerful tool for building modern web applications with a focus on reusable, modular components.'
+    ,img:'/images/React.jpg'},
+    {key:2,title:'Python', link:"/pages/Ppython",
+        text:'Python is a popular high-level programming language that is widely used for web development, scientific computing, data analysis, machine learning, and more. It has a simple and intuitive syntax, making it easy to learn and use for beginners and experienced developers. Python also has a large and active community of developers who contribute to its open-source libraries, providing a wealth of pre-existing code for common tasks. With its versatility, scalability, and power, Python is an excellent choice for a wide range of applications and continues to grow in popularity.'
+    ,img:'/images/Python.jpg'},
+    {key:3,title:'Flutter',link:"/pages/Pflutter",
+    text:'Flutter is an open-source mobile application development framework created by Google. It uses the Dart programming language and allows developers to build high-performance, visually appealing apps for both Android and iOS platforms with a single codebase. Flutter also offers a wide range of customizable widgets and tools, making it easy to create beautiful and responsive UIs. Its "hot reload" feature allows developers to see changes in real-time, making development faster and more efficient. With its ease of use, flexibility, and growing community of developers, Flutter is rapidly gaining popularity among mobile app developers.'
+    ,img:'https://apptech.com.tr/wp-content/uploads/2020/01/Needed-to-Know-About-Flutter-Interact-2020-1.jpg'},
+    {key:4,title:'Angular js', link:"/pages/Pangular",
+    text:'AngularJS is a popular open-source JavaScript framework developed by Google for building dynamic, single-page web applications. It uses a model-view-controller (MVC) architecture and offers a wide range of tools and features for data binding, routing, testing, and more. With AngularJS, developers can create scalable and robust applications that are easy to maintain and update. Its intuitive syntax and comprehensive documentation make it a popular choice for developers of all skill levels. Overall, AngularJS is a powerful and versatile framework for building modern web applications with ease.'
+    ,img:'/images/Angula.jpg'},
+    {key:5,title:'Typescript',link:"/pages/Ptype"
+    ,text:'TypeScript is a superset of JavaScript that adds static typing and other features to the language. It was developed by Microsoft and has gained popularity among developers due to its scalability, maintainability, and improved error checking. TypeScript also offers features such as interfaces, classes, and modules, making it easier to write complex and large-scale applications. With its ability to catch errors before runtime, TypeScript is a great choice for building robust and reliable applications. Overall, TypeScript is a powerful tool that extends the capabilities of JavaScript, making it easier to build large-scale projects while reducing errors and improving overall code quality.'
+    ,img:'images/typescript.jpeg'},
+    {key:6,title:'Vue js',link:'/pages/Pvue'
+    ,text:'Vue.js is a progressive JavaScript framework for building user interfaces. It was created by Evan You in 2014 and has gained popularity among developers due to its simplicity, flexibility, and performance. Vue.js uses a component-based architecture that allows developers to create reusable and modular UI components for building complex applications. It also offers features such as reactive data binding, directives, and computed properties, making it easy to write dynamic and responsive applications. With its ease of use and comprehensive documentation, Vue.js is a great choice for developers of all skill levels looking to build modern web applications.'
+    ,img:'/images/vue.jpg'
+    }
+
+]
+export default postsinfo
